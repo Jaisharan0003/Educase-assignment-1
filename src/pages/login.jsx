@@ -49,7 +49,7 @@ export default function Login() {
 
       <button
         onClick={login}
-        className="w-full h-12 rounded-md bg-[#CBCBCB] text-white font-semibold"
+        className="w-full h-12 rounded-md bg-[#CBCBCB] text-white font-semibold cursor-pointer"
       >
         Login
       </button>

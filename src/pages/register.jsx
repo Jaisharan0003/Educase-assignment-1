@@ -90,7 +90,7 @@ export default function Register() {
 
       <button
         onClick={submit}
-        className="w-full h-12 bg-[#6C25FF] text-white rounded-md font-semibold"
+        className="w-full h-12 bg-[#6C25FF] text-white rounded-md font-semibold cursor-pointer"
       >
         Create Account
       </button>

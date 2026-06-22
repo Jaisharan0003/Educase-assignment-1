@@ -15,14 +15,14 @@ export default function Welcome() {
 
       <button
         onClick={() => navigate("/register")}
-        className="mt-8 bg-[#6C25FF] text-white h-12 rounded-md font-semibold"
+        className="mt-8 bg-[#6C25FF] text-white h-12 rounded-md font-semibold cursor-pointer"
       >
         Create Account
       </button>
 
       <button
         onClick={() => navigate("/login")}
-        className="mt-3 bg-[#CEBAFB] text-[#1D2226] h-12 rounded-md font-semibold"
+        className="mt-3 bg-[#CEBAFB] text-[#1D2226] h-12 rounded-md font-semibold cursor-pointer"
       >
         Already Registered? Login
       </button>
